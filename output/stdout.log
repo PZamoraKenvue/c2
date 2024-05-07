@@ -1,0 +1,8 @@
+
+Collecting tasks from: tasks.py
+========================= Running: [96mrobot_manufacturing[0m =========================
+[96mrobot_manufacturing[0m status: [91mFAIL
+[0m[91m
+'charmap' codec can't encode characters in position 166-168: character maps to <undefined>
+[0m================= Full Traceback (running [96mrobot_manufacturing[0m) =================
+[91m[0mRobocorp Log (html): c:\Users\PZamora\OneDrive - Kenvue\Desktop\Robocorp\t2\output\log.html

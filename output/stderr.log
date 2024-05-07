@@ -1,0 +1,16 @@
+2024-05-06 15:43:08,732 - RPA.core.certificates - INFO - Truststore injection done, using system certificate store to validate HTTPS.
+Error calling: <bound method Context._after_task_run of <robocorp.tasks._task.Context object at 0x000002480C33D1B0>>.
+Traceback (most recent call last):
+  File "C:\ProgramData\robocorp\ht\d20367b_b1f3c24_1c0bc041\lib\site-packages\robocorp\tasks\_callback.py", line 48, in __call__
+    c(*args, **kwargs)
+  File "C:\ProgramData\robocorp\ht\d20367b_b1f3c24_1c0bc041\lib\site-packages\robocorp\tasks\_task.py", line 301, in _after_task_run
+    self.show(
+  File "C:\ProgramData\robocorp\ht\d20367b_b1f3c24_1c0bc041\lib\site-packages\robocorp\tasks\_task.py", line 263, in show
+    console_message(msg, kind, flush=flush)
+  File "C:\ProgramData\robocorp\ht\d20367b_b1f3c24_1c0bc041\lib\site-packages\robocorp\log\__init__.py", line 374, in console_message
+    stream.write(message)
+  File "C:\ProgramData\robocorp\ht\d20367b_b1f3c24_1c0bc041\lib\site-packages\robocorp\log\redirect.py", line 114, in write
+    self._original.write(s)
+  File "C:\ProgramData\robocorp\ht\d20367b_b1f3c24_1c0bc041\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 1922-1924: character maps to <undefined>
